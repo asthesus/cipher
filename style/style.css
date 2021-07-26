@@ -1,0 +1,43 @@
+html, body, .zzz{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    border: 0;
+    overflow: hidden;
+    display: block;
+}
+body{
+    background: #000;
+    color: #eee;
+    font-family: 'Courier New';
+    font-size: 1.5em;
+    
+    /* display: flex; */
+}
+.zzz{
+    padding: 2%
+}
+.tocipher[contenteditable] {
+    border: 1px solid #eee;
+
+    width: 94%;
+    height: 33%;
+    padding: 0.5em;
+    min-height: 1em;
+}
+.key[contenteditable] {
+    border: 1px solid #eee;
+
+    width: 94%;
+    height: 3%;
+    padding: 0.5em;
+    min-height: 1em;
+}
+.ciphered[contenteditable] {
+    border: 1px solid #eee;
+
+    width: 94%;
+    height: 33%;
+    padding: 0.5em;
+    min-height: 1em;
+}
