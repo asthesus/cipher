@@ -9,11 +9,15 @@
 </head>
 <body>
     <div class="zzz">
-        Text to cipher:
+        <input type="checkbox" id="decipher" name="decipher">
+        <label for="decipher" id="decipher_label">Cipher</label>
+        <input type="checkbox" id="vigenere" name="vigenere">
+        <label for="vigenere" id="vigenere_label">ASCII</label>
+        <br><br>Input:
         <div class="tocipher" id="tocipher" contenteditable></div>
         <br>Key:
         <div class="key" id="key" contenteditable></div>
-        <br>Ciphered text:
+        <br>Output:
         <div class="ciphered" id="ciphered" contenteditable></div>
     </div>
     <script src="main.js"></script>
