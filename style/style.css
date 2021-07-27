@@ -11,8 +11,6 @@ body{
     color: #eee;
     font-family: 'Courier New';
     font-size: 1.5em;
-    
-    /* display: flex; */
 }
 .zzz{
     padding: 2%
@@ -20,20 +18,18 @@ body{
 .tocipher[contenteditable], .ciphered[contenteditable]{
     border: 1px solid #eee;
 
-    width: 94%;
-    height: 30%;
-    padding: 0.5em;
+    width: 95%;
+    height: 31.5%;
+    padding: 0.5%;
     min-height: 1em;
-    max-height: 30%;
     overflow: auto;
 }
 .key[contenteditable]{
     border: 1px solid #eee;
 
-    width: 94%;
+    width: 95%;
     height: 3%;
-    padding: 0.5em;
+    padding: 0.5%;
     min-height: 1em;
-    max-height: 30%;
     overflow: auto;
 }
