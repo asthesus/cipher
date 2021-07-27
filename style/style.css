@@ -17,27 +17,23 @@ body{
 .zzz{
     padding: 2%
 }
-.tocipher[contenteditable] {
+.tocipher[contenteditable], .ciphered[contenteditable]{
     border: 1px solid #eee;
 
     width: 94%;
-    height: 33%;
+    height: 30%;
     padding: 0.5em;
     min-height: 1em;
+    max-height: 30%;
+    overflow: auto;
 }
-.key[contenteditable] {
+.key[contenteditable]{
     border: 1px solid #eee;
 
     width: 94%;
     height: 3%;
     padding: 0.5em;
     min-height: 1em;
-}
-.ciphered[contenteditable] {
-    border: 1px solid #eee;
-
-    width: 94%;
-    height: 33%;
-    padding: 0.5em;
-    min-height: 1em;
+    max-height: 30%;
+    overflow: auto;
 }
